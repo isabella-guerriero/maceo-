@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="textcontainer">
+    <h1 class="title">i love maceo so much!</h1>
+  </div> 
+  <div class="button-container">
+    <div class="button-item">
+      <button class="favoriteperson" onclick="clickedbutton()">he is my favorite person ever</button>
+      <div id="messageContainer" class="coolMessage"></div>
+    </div>
+    <div class="button-item">
+      <button id="showImage" onclick="showImage()">click for suprise!</button>
+      <img id="surpriseImage" src="maceo.jpg" alt="A photo of me and Maceo" style="display: none;">
+    </div>
+    <div class="button-item">
+      <button class="reasons" onclick="showReasons()">things i am excited for</button>
+      <div id="reasons"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
